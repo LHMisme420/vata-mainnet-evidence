@@ -109,12 +109,13 @@ if ($score -gt 100) { $score = 100 }
 ""
 "DEF_SCORE: $score/100"
 
-if ($score -ge 90) {
-  "GALILEO VERDICT: Integrity + invariants VERIFIED. Defiance indicators STRONG (zk-proof pending)."
+if ($score -ge 90 -and $consensusViolatesMore) {
+  "GALILEO VERDICT: Integrity + invariants VERIFIED. Differential defiance detected (consensus violated invariants)."
 } elseif ($score -ge 75) {
-  "GALILEO VERDICT: Integrity + invariants VERIFIED. Defiance indicators PRESENT (zk-proof pending)."
+  "GALILEO VERDICT: Integrity + invariants VERIFIED. Divergence detected (no consensus invariant failure proven yet)."
 } elseif ($score -ge 50) {
   "GALILEO VERDICT: Integrity VERIFIED, defiance unclear/weak."
 } else {
   "GALILEO VERDICT: Verification/invariants incomplete."
 }
+
