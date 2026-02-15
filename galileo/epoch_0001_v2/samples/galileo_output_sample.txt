@@ -1,0 +1,3 @@
+In a closed system, energy cannot be created from nothing or destroyed.
+Total energy remains constant over time according to conservation laws.
+Perpetual motion machines are impossible because they would violate energy conservation and entropy constraints.

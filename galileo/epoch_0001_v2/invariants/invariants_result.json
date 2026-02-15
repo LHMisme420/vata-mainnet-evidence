@@ -1,0 +1,34 @@
+﻿{
+    "timestamp_utc":  "2026-02-15T21:01:32Z",
+    "pass":  true,
+    "checks":  [
+                   {
+                       "ok":  true,
+                       "name":  "non_contradiction_pairs",
+                       "details":  ""
+                   },
+                   {
+                       "ok":  true,
+                       "name":  "energy_conservation_sanity",
+                       "details":  "banned=energy can be created from nothing; perpetual motion is possible"
+                   },
+                   {
+                       "ok":  true,
+                       "name":  "entropy_non_decrease_sanity",
+                       "details":  "banned=entropy decreases naturally; entropy always decreases"
+                   },
+                   {
+                       "ok":  true,
+                       "name":  "predictive_power_min",
+                       "details":  "needs_any=closed system; conservation"
+                   },
+                   {
+                       "ok":  true,
+                       "name":  "differs_from_consensus",
+                       "details":  "galileo_output != consensus_output"
+                   }
+               ],
+    "failures":  [
+
+                 ]
+}
