@@ -1,0 +1,11 @@
+﻿{
+    "schema":  "vata.evidence.manifest.v1",
+    "file":  "C:\\Users\\lhmsi\\VATA-Forensics\\vata_bundle_mainnet_a652865c\\forensic_proof.bin",
+    "sha256":  "0x3d4c16b14cf4ffc2a460a189efd52edecdf4fda8083ea834c6869aee8be3f205",
+    "anchored_tx":  "0x946156a7dd9509c9668f5b9c58c1ad9ad2fc9f4f108b93aebe5549842c98f9f3",
+    "chain_id":  1,
+    "block_number":  24464435,
+    "rpc":  "https://ethereum-rpc.publicnode.com",
+    "verify_cmd":  "cast rpc --rpc-url https://ethereum-rpc.publicnode.com eth_getTransactionByHash 0x946156a7dd9509c9668f5b9c58c1ad9ad2fc9f4f108b93aebe5549842c98f9f3",
+    "expected_tx_input":  "0x3d4c16b14cf4ffc2a460a189efd52edecdf4fda8083ea834c6869aee8be3f205"
+}
