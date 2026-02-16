@@ -1,0 +1,13 @@
+{
+  "anchor_tx":"0xa5b008d0c894488cabdfbcc6301736cf1e4b0ce1474fca3f76702d8211b420f5",
+  "schema": "vata.receipt.v1",
+  "epoch": "epoch_0002_v2",
+
+  "metrics": {
+    "outputs_differ": false,
+    "consensus_violations": 0,
+    "galileo_violations": 0,
+    "consensus_violates_more": false,
+    "delta_tier": "NONE"
+  }
+}
