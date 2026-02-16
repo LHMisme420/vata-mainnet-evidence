@@ -1,3 +1,24 @@
+## Reproducible Evidence Bundles
+
+This repository contains public bundles that allow independent reproduction of
+anchored forensic tuples.
+
+Latest bundle:
+
+bundles/epoch_20260215_185409/
+
+Expected:
+- galileo_violations = 3
+- consensus_violations = 0
+
+Verify:
+
+powershell -ExecutionPolicy Bypass -File verify_tuple_field.ps1 `
+  -EpochDir bundles/epoch_20260215_185409 `
+  -Field metrics `
+  -VerifyAnchor
+
+
 # Mainnet Evidence Anchor
 
 TX: 0x946156a7dd9509c9668f5b9c58c1ad9ad2fc9f4f108b93aebe5549842c98f9f3
