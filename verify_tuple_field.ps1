@@ -81,13 +81,28 @@ if ($VerifyAnchor) {
     Write-Host $tx
     Write-Host ""
 
-    $txInput = cast tx $tx --rpc-url $env:RPC | Select-String "input"
+    $txInputLine = cast tx $tx --rpc-url $env:RPC | Select-String "input"
 
-    if (-not $txInput) {
+    if (-not $txInputLine) {
         throw "Could not retrieve transaction input"
     }
 
-    $onchainRoot = ($txInput -replace "input\s+", "").Trim().ToLower()
+    # Extract raw input hex (0x...) from the cast output line
+    $inputHex = ($txInputLine -replace "input\s+", "").Trim().ToLower()
+
+    # Normalize: ensure it starts with 0x
+    if (-not $inputHex.StartsWith("0x")) {
+        $inputHex = "0x" + $inputHex
+    }
+
+    # ABI note: calldata = 4-byte selector + 32-byte arg for anchor(bytes32).
+    # We want the LAST 32 bytes (64 hex chars) as the merkle root.
+    $hexNoPrefix = $inputHex.Substring(2)
+    if ($hexNoPrefix.Length -lt 64) {
+        throw "On-chain input too short to contain bytes32 root"
+    }
+
+    $onchainRoot = "0x" + $hexNoPrefix.Substring($hexNoPrefix.Length - 64, 64)
 
     Write-Host "ONCHAIN ROOT:"
     Write-Host $onchainRoot
