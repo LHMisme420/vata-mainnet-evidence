@@ -1,0 +1,6 @@
+{
+  "energy_conservation": true,
+  "non_contradiction": true,
+  "predictive_power": true,
+  "entropy_non_decrease": true
+}

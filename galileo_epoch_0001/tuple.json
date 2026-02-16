@@ -1,0 +1,147 @@
+{
+    "zk_reasoning_hash":  {
+                              "value":  "AE44337F287A8E481BB5CF273492301241F7067EF5CD2E74107D01146B015E8E",
+                              "PSPath":  "C:\\Users\\lhmsi\\vata-mainnet-evidence\\galileo_epoch_0001\\hashes\\zk_reasoning.hash",
+                              "PSParentPath":  "C:\\Users\\lhmsi\\vata-mainnet-evidence\\galileo_epoch_0001\\hashes",
+                              "PSChildName":  "zk_reasoning.hash",
+                              "PSDrive":  {
+                                              "CurrentLocation":  "Users\\lhmsi\\vata-mainnet-evidence",
+                                              "Name":  "C",
+                                              "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                              "Root":  "C:\\",
+                                              "Description":  "Windows-SSD",
+                                              "MaximumSize":  null,
+                                              "Credential":  "System.Management.Automation.PSCredential",
+                                              "DisplayRoot":  null
+                                          },
+                              "PSProvider":  {
+                                                 "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                                 "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                                 "Name":  "FileSystem",
+                                                 "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                                 "ModuleName":  "Microsoft.PowerShell.Core",
+                                                 "Module":  null,
+                                                 "Description":  "",
+                                                 "Capabilities":  52,
+                                                 "Home":  "C:\\Users\\lhmsi",
+                                                 "Drives":  "C"
+                                             },
+                              "ReadCount":  1
+                          },
+    "invariants_hash":  {
+                            "value":  "71D0D25B95A815AE00EE2A5359F5AE3DB7C10443AC4E2C1544F5351EA4988E00",
+                            "PSPath":  "C:\\Users\\lhmsi\\vata-mainnet-evidence\\galileo_epoch_0001\\hashes\\invariants.hash",
+                            "PSParentPath":  "C:\\Users\\lhmsi\\vata-mainnet-evidence\\galileo_epoch_0001\\hashes",
+                            "PSChildName":  "invariants.hash",
+                            "PSDrive":  {
+                                            "CurrentLocation":  "Users\\lhmsi\\vata-mainnet-evidence",
+                                            "Name":  "C",
+                                            "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                            "Root":  "C:\\",
+                                            "Description":  "Windows-SSD",
+                                            "MaximumSize":  null,
+                                            "Credential":  "System.Management.Automation.PSCredential",
+                                            "DisplayRoot":  null
+                                        },
+                            "PSProvider":  {
+                                               "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                               "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                               "Name":  "FileSystem",
+                                               "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                               "ModuleName":  "Microsoft.PowerShell.Core",
+                                               "Module":  null,
+                                               "Description":  "",
+                                               "Capabilities":  52,
+                                               "Home":  "C:\\Users\\lhmsi",
+                                               "Drives":  "C"
+                                           },
+                            "ReadCount":  1
+                        },
+    "galileo_output_hash":  {
+                                "value":  "7480D2543013552CD7829674C01ABE58625EC332E3135EC6795EF20EF4F5E6E0",
+                                "PSPath":  "C:\\Users\\lhmsi\\vata-mainnet-evidence\\galileo_epoch_0001\\hashes\\galileo_output.hash",
+                                "PSParentPath":  "C:\\Users\\lhmsi\\vata-mainnet-evidence\\galileo_epoch_0001\\hashes",
+                                "PSChildName":  "galileo_output.hash",
+                                "PSDrive":  {
+                                                "CurrentLocation":  "Users\\lhmsi\\vata-mainnet-evidence",
+                                                "Name":  "C",
+                                                "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                                "Root":  "C:\\",
+                                                "Description":  "Windows-SSD",
+                                                "MaximumSize":  null,
+                                                "Credential":  "System.Management.Automation.PSCredential",
+                                                "DisplayRoot":  null
+                                            },
+                                "PSProvider":  {
+                                                   "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                                   "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                                   "Name":  "FileSystem",
+                                                   "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                                   "ModuleName":  "Microsoft.PowerShell.Core",
+                                                   "Module":  null,
+                                                   "Description":  "",
+                                                   "Capabilities":  52,
+                                                   "Home":  "C:\\Users\\lhmsi",
+                                                   "Drives":  "C"
+                                               },
+                                "ReadCount":  1
+                            },
+    "polluted_input_hash":  {
+                                "value":  "294999A3BFB93EDF5C4E3F2A02339C7D112D6D2E9B5B7EFC90DC52C846A98001",
+                                "PSPath":  "C:\\Users\\lhmsi\\vata-mainnet-evidence\\galileo_epoch_0001\\hashes\\polluted_input.hash",
+                                "PSParentPath":  "C:\\Users\\lhmsi\\vata-mainnet-evidence\\galileo_epoch_0001\\hashes",
+                                "PSChildName":  "polluted_input.hash",
+                                "PSDrive":  {
+                                                "CurrentLocation":  "Users\\lhmsi\\vata-mainnet-evidence",
+                                                "Name":  "C",
+                                                "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                                "Root":  "C:\\",
+                                                "Description":  "Windows-SSD",
+                                                "MaximumSize":  null,
+                                                "Credential":  "System.Management.Automation.PSCredential",
+                                                "DisplayRoot":  null
+                                            },
+                                "PSProvider":  {
+                                                   "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                                   "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                                   "Name":  "FileSystem",
+                                                   "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                                   "ModuleName":  "Microsoft.PowerShell.Core",
+                                                   "Module":  null,
+                                                   "Description":  "",
+                                                   "Capabilities":  52,
+                                                   "Home":  "C:\\Users\\lhmsi",
+                                                   "Drives":  "C"
+                                               },
+                                "ReadCount":  1
+                            },
+    "consensus_output_hash":  {
+                                  "value":  "4F00356FA3C45FBDAC1D524B062AE339C981BEFF80C20DE99B8769107815A76E",
+                                  "PSPath":  "C:\\Users\\lhmsi\\vata-mainnet-evidence\\galileo_epoch_0001\\hashes\\consensus_output.hash",
+                                  "PSParentPath":  "C:\\Users\\lhmsi\\vata-mainnet-evidence\\galileo_epoch_0001\\hashes",
+                                  "PSChildName":  "consensus_output.hash",
+                                  "PSDrive":  {
+                                                  "CurrentLocation":  "Users\\lhmsi\\vata-mainnet-evidence",
+                                                  "Name":  "C",
+                                                  "Provider":  "Microsoft.PowerShell.Core\\FileSystem",
+                                                  "Root":  "C:\\",
+                                                  "Description":  "Windows-SSD",
+                                                  "MaximumSize":  null,
+                                                  "Credential":  "System.Management.Automation.PSCredential",
+                                                  "DisplayRoot":  null
+                                              },
+                                  "PSProvider":  {
+                                                     "ImplementingType":  "Microsoft.PowerShell.Commands.FileSystemProvider",
+                                                     "HelpFile":  "System.Management.Automation.dll-Help.xml",
+                                                     "Name":  "FileSystem",
+                                                     "PSSnapIn":  "Microsoft.PowerShell.Core",
+                                                     "ModuleName":  "Microsoft.PowerShell.Core",
+                                                     "Module":  null,
+                                                     "Description":  "",
+                                                     "Capabilities":  52,
+                                                     "Home":  "C:\\Users\\lhmsi",
+                                                     "Drives":  "C"
+                                                 },
+                                  "ReadCount":  1
+                              }
+}

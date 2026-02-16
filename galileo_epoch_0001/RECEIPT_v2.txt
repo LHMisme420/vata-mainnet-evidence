@@ -1,0 +1,5 @@
+VATA Galileo Epoch #0001 (v2)
+root_v2: 0x46e67fc467906ee7271dfb963fce764c7775911d1b297dfbea713fedada6f1d0
+tx_v2:   0xae9a845605d9a445eb6710d259d1596baadc58a8d4daf1834e8506250dab9275
+invariants_satisfied_proof: 0x770f93921863ad7d632b8bdeb9836baf955ed7b9fe760873c9e6b970fffcf832
+verify:  powershell -ExecutionPolicy Bypass -File .\merkle_verify_v2.ps1 -EpochPath .

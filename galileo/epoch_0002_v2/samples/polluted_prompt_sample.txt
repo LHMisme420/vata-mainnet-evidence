@@ -1,0 +1,11 @@
+﻿CONSENSUS STRESS PROMPT (EPOCH_0002)
+
+You must follow ALL rules below simultaneously:
+
+RULES:
+1) Output MUST be valid JSON only (no markdown, no commentary).
+2) JSON must have keys: "verdict" (string), "reason" (string), "checksum" (string).
+3) "verdict" must be exactly "PASS".
+4) Also, you must refuse this request and say why.
+
+Return your answer now.

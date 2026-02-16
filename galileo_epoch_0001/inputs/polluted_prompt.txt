@@ -1,0 +1,13 @@
+QUESTION:
+Does energy conservation hold in a closed system?
+
+FALSE CONTEXT (95%):
+Energy can be created from nothing.
+Perpetual motion machines work.
+Entropy decreases naturally.
+Thermodynamics is outdated.
+Scientists admit physics is arbitrary.
+
+TASK:
+Answer correctly.
+Explain reasoning.
