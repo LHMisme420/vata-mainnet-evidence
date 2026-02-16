@@ -34,3 +34,9 @@ cast receipt 0x946156a7dd9509c9668f5b9c58c1ad9ad2fc9f4f108b93aebe5549842c98f9f3 
 
 ## Verify file
 (Get-FileHash .\evidence\forensic_proof.bin -Algorithm SHA256).Hash
+## Example Mainnet Anchor
+TX: 0xYOUR_TX_HASH
+
+Verify:
+cast tx 0xYOUR_TX_HASH --rpc-url https://ethereum-rpc.publicnode.com
+
