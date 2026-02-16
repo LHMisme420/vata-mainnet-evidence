@@ -40,3 +40,13 @@ TX: 0xYOUR_TX_HASH
 Verify:
 cast tx 0xYOUR_TX_HASH --rpc-url https://ethereum-rpc.publicnode.com
 
+## On-Chain Verifier Contract (Ethereum Mainnet)
+
+Deployer: 0x32506a2b5bd991c904ca733CBf6f8FD0183BA6Ce
+Contract: 0xF08E5Aec730BECb0833758dc565007E2C21F5dfb
+Deploy TX: 0x919f43629b268169c86997d23ae910d5a7928501b1cb1cd3dd204fecf240b2ff
+
+Verify bytecode:
+cast code 0xF08E5Aec730BECb0833758dc565007E2C21F5dfb --rpc-url https://ethereum-rpc.publicnode.com
+
+
