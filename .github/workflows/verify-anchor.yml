@@ -1,0 +1,28 @@
+name: Verify Mainnet Anchor
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Foundry (cast)
+        uses: foundry-rs/foundry-toolchain@v1
+
+      - name: Run anchor verification
+        run: |
+          pwsh -NoProfile -ExecutionPolicy Bypass -File ./verify_anchor.ps1 `
+            -ReceiptPath "./galileo/epoch_0001_v2/receipt.json" `
+            -MerklePath  "./galileo/epoch_0001_v2/merkle_root_v2.txt" `
+            -TxHash "0xfce1402c3c4609910976b5be0dea00ccbe7a61d548fbc9b65ed748b45a02daa9" `
+            -RpcUrl "https://ethereum-rpc.publicnode.com" `
+            -Quiet
