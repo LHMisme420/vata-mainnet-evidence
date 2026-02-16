@@ -1,4 +1,4 @@
-name: Verify Mainnet Anchor
+﻿name: Verify Mainnet Anchor
 
 on:
   push:
@@ -23,6 +23,8 @@ jobs:
           pwsh -NoProfile -ExecutionPolicy Bypass -File ./verify_anchor.ps1 `
             -ReceiptPath "./galileo/epoch_0001_v2/receipt.json" `
             -MerklePath  "./galileo/epoch_0001_v2/merkle_root_v2.txt" `
-            -TxHash "0xfce1402c3c4609910976b5be0dea00ccbe7a61d548fbc9b65ed748b45a02daa9" `
+            -TxHash "0xae9a845605d9a445eb6710d259d1596baadc58a8d4daf1834e8506250dab9275" `
             -RpcUrl "https://ethereum-rpc.publicnode.com" `
-            -Quiet
+            -Mode "auto" `n            -Quiet
+
+
