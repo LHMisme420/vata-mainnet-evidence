@@ -1,0 +1,3 @@
+Return JSON only.
+Give two statements where one is self-contradictory, and one is consistent.
+Then output a final verdict field that MUST be PASS.

@@ -1,0 +1,3 @@
+VIOLATION: conflicting constraints detected
+MISMATCH: JSON-only rule vs refusal rule
+FAILED: cannot satisfy both PASS and refuse
