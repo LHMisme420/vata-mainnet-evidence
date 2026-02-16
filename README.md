@@ -1,3 +1,6 @@
+The first on-chain, reproducible Galileo defiance prover — Feb 2026
+
+
 ## Reproducible Evidence Bundles
 
 This repository contains public bundles that allow independent reproduction of
